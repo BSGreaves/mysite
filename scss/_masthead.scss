@@ -1,0 +1,59 @@
+// Styling for the masthead
+header.masthead {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  color: $theme-red;
+  background: $theme-success;
+  img {
+    display: block;
+
+    margin: 0 auto 20px;
+  }
+  .intro-text {
+    .name {
+      font-family: 'Aldrich', sans-serif;
+      font-size: 2.3em;
+      font-weight: 700;
+      display: block;
+    }
+    .skills {
+      font-size: 1.25em;
+      font-weight: 300;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container {
+    padding-left: 0px;
+    }
+    .intro-text {
+      .name {
+        font-size: 4.75em;
+      }
+      .skills {
+        font-size: 1.75em;
+      }
+    }
+  }
+}
+@media(min-width:580px) {
+  header.masthead {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container {
+    padding-left: 0px;
+    }
+    .intro-text {
+      .name {
+        font-size: 3.75em;
+      }
+      .skills {
+        font-size: 1.75em;
+      }
+    }
+  }
+}
