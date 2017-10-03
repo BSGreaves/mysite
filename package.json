@@ -6,7 +6,6 @@
   "dependencies": {
     "typed.js": "^2.0.6"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
